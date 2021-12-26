@@ -5,9 +5,12 @@
 <title>GTA6内部预告片第21版（绝密）</title>
 <head>
 <body>
-<video preload="auto" autoplay="autoplay" controls="controls" height="100%" width="100%">
-<source src="/8245.mp4" type="video/mp4" />
-Okay.Your browser unsupport the video tag.You can't watch this.
-</video>
+<video id="1" src="/8245.mp4" autoplay loop controls width="100%" height="100%"></video>
+<script>
+$(function () {
+    var myAuto = document.getElementById('1');
+    myAuto.play();
+})
+</script>
 <body>
 </html>
