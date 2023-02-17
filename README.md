@@ -1,2 +1,3 @@
 # ex-plane.github.io
-My own github site, It just to rickroll someone. :D
+My own github site.
+Design to rickroll someone. LOL
