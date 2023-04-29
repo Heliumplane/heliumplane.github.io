@@ -1,2 +1,2 @@
 # RickRoll
-Never gonna give you up~ Never gonna let you down~
+Never gonna give you up~
