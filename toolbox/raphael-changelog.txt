@@ -43,7 +43,7 @@ V20230722
  * Fix some bugs.
 
 V20230721-BFF (Really a huge update)
- * BFF Test Version, completely rebased. (Special thanks to ¿á°²@Ä³Ôô)
+ * BFF Test Version, completely rebased. (Special thanks to é…·å®‰@æŸè´¼)
  * Added Log Recording System.
  * Added Theme System.
  * Device status checking and File selection are now completely new.
@@ -89,7 +89,7 @@ V20230717-beta
 
 V20230716-test
  * Initial version.
- * Inherit main codes from "÷è÷ëÅÌ¹Å¹¤¾ßÏä V4.9.12.8". (Special thanks to @ÂóÂó¹Û·¹)
+ * Inherit main codes from "éº’éºŸç›˜å¤å·¥å…·ç®± V4.9.12.8". (Special thanks to @éº¦éº¦è§‚é¥­)
  * Add ADB tools, Recovery images and super_empty image.
- * Do adaptation for Redmi K20 Pro£¬completely change the code.
- * Create Æô¶¯¹¤¾ßÏä.bat to call the main program, which is in "Resources" directory.
+ * Do adaptation for Redmi K20 Proï¼Œcompletely change the code.
+ * Create å¯åŠ¨å·¥å…·ç®±.bat to call the main program, which is in "Resources" directory.
