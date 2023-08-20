@@ -1,0 +1,96 @@
+V20230818
+ * Fixed TWRP flashing problem. (My bad, sorry for inconvenience, now it should work)
+ * Now supported to reboot to Recovery from Bootloader. (Finally found the way to do it)
+ * Preseted files to preview themes, instead of generating a temp file.
+ * Split out a submenu.
+ * Added the way to report bugs or give advice.
+ * Some small improvements.
+ 
+V20230815
+ * The first time to update my toolbox on the phone, please check everything!
+ * Update necessary resources URL.
+ * Some small improvements.
+
+V20230801
+ * Initial version.
+ * Inherit main codes from "Raphael ToolBox" (V20230724).
+ * Do adaptation for Mi8937 devices.
+ 
+---------------------------------------------------------
+
+V20230724
+ * Added update checking while starting the toolbox.
+ * Some UI improvements.
+ * Some minor changes.
+ * Fix some bugs.
+ 
+V20230723
+ * Added Online Update function.
+ * Added 7z.exe (To unzip files)
+ * Added wget.exe (To download necessary resources)
+ * Improved self-check process.
+ * Added some options about toolbox.
+ * Removed some types of OrangeFox Recovery.
+ * Archived OrangeFox Recovery with 7-Zip and uploaded to the netdisk.
+
+V20230722
+ * Added devcon.exe. (To check EDL status and diag901d status)
+ * Added a process to get administrator permission automatically. (To run devcon.exe properly)
+ * Readded "Exit Toolbox" option. (Will kill ADB process simultaneously)
+ * Improved "choice" function.
+ * Improved logo presention.
+ * Some UI improvements.
+ * Some minor changes.
+ * Fix some bugs.
+
+V20230721-BFF (Really a huge update)
+ * BFF Test Version, completely rebased. (Special thanks to 酷安@某贼)
+ * Added Log Recording System.
+ * Added Theme System.
+ * Device status checking and File selection are now completely new.
+ * So many updates but I am lazy to write down, explore by yourself!
+
+V20230720-release
+ * The first release version.
+ * Added some types of OrangeFox Recovery.
+ * Some minor changes.
+ * Fix some bugs.
+
+V20230719-RC
+ * RC version.
+ * The menu is in "toolbox.bat" now.
+ * Merged two "Flashing OrangeFox Recovery" options into one option.
+ * Dropped "Select a system image to flash" option. (It's almost useless)
+ * Dropped "Exit Toolbox" option. (This is too silly, just click on the "X" and you can exit the toolbox)
+ * Some UI improvements.
+ * Some minor changes.
+ * Fix some bugs.
+
+V20230718-bomb
+ * Bomb version! Because this version adds lots of new things!
+ * Made all the options and the menu modular. (Much easier to maintain)
+ * Added file selection popup. (Will help save lots of time)
+ * Added ECHOC.exe into "tools" directory.
+ * Added a new type of super_empty image.
+ * Added a new menu to choose super_empty image's type.
+ * Device connection status checking is now standalone.
+ * Added conditional judgment for Device connection status checking.
+ * Optimized directory's structure, put ADB tools into "tools" directory, put images into "images" directory.
+ * Some UI improvements.
+ * Fix bugs that new things bring.
+
+V20230717-beta
+ * Reduce codes in the main program. (273 lines -> 236 lines)
+ * Integrate device connection status checking under one label for direct call. (Help reduce codes as well)
+ * Add an option to return to the main menu. (During device connection status checking)
+ * Add an option to exit the toolbox on the main menu.
+ * Reboot choices are now much clearer.
+ * Some UI improvements.
+ * Fix some bugs.
+
+V20230716-test
+ * Initial version.
+ * Inherit main codes from "麒麟盘古工具箱 V4.9.12.8". (Special thanks to @麦麦观饭)
+ * Add ADB tools, Recovery images and super_empty image.
+ * Do adaptation for Redmi K20 Pro，completely change the code.
+ * Create 启动工具箱.bat to call the main program, which is in "Resources" directory.
